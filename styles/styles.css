@@ -1,0 +1,421 @@
+header {
+    height: 70px;
+    background-color: #1e172f;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 15px;
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+}
+
+.about {
+    color: white
+}
+
+.boton_header {
+    color: white;
+    background: linear-gradient(to right, #8341d5, #1b73d5);
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 110px;
+    font-size: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    margin: 130px 200px 0px;
+}
+
+.parrafo_pagina1 {
+    color: white;
+    font-size: 17px;
+    margin: 20px 200px 0px;
+}
+
+.pagina1 {
+    display: flex;
+
+}
+
+.pagina1_izquierda {
+    flex-direction: row-reverse;
+    background-color: #2e2550;
+    width: 50%;
+    height: 600px;
+}
+
+.botones {
+    display: inline-block;
+    margin: 30px 0px 0px 200px;
+    padding: 15px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 167, 167, 0.3);
+}
+
+.boton1 {
+    background-color: white;
+    color: #ff4c96;
+    text-decoration: none;
+    padding: 11px 25px;
+    border-radius: 5px;
+}
+
+.boton2 {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+}
+
+.pagina1_derecha {
+    display: flex;
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(26, 34, 44, 0.5)),
+        url(../assets/hojasFondo.jpg);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.celular_pagina1 {
+    background-image: url(../assets/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.pagina2_ {
+    flex-direction: column;
+
+}
+
+.pagina2 {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.imagen_pagina2 {
+    height: 330px;
+    margin-top: 0px;
+
+}
+
+.titulo_pagina2 {
+    display: flex;
+    justify-content: center;
+    color: #f41486;
+    font-size: 80px;
+
+}
+
+.direccion_img_texto {
+    display: flex;
+    gap: 200px;
+
+}
+
+.textos_pagina2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+span {
+    font-size: 30px;
+
+}
+
+.subtitulo2_pagina2 {
+    font-size: 25px;
+    font-weight: 100;
+    color: #f41486;
+
+}
+
+.subtitulo_pagina2 {
+    font-size: 45px;
+    font-weight: 100;
+    color: #c62f7c;
+
+}
+
+.parrafo_pagina2 {
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+
+}
+
+.lista_pagina2 {
+    margin-top: -10px;
+    margin-left: -35px;
+    font-size: 20px;
+    list-style: none;
+
+}
+
+.lista_pagina2 li::before {
+
+    content: "✔";
+    color: #f41486;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.pagina3 {
+    background-color: #1e172f;
+    height: 920px;
+
+}
+
+.titulo_pagina3 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 60px;
+    color: white;
+
+}
+
+.parrafo_pagina3 {
+    display: flex;
+    color: #aba9b1;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+}
+
+.cuadros {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cuadro1,
+.cuadro2,
+.cuadro3 {
+    margin-right: 100px;
+    border-radius: 5px;
+    background-color: white;
+    height: 600px;
+    width: 350px;
+
+}
+
+.logo_cuadro1,
+.logo_cuadro2,
+.logo_cuadro3 {
+    display: flex;
+    justify-self: center;
+
+}
+
+.lite {
+    display: flex;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f41486;
+
+}
+
+.gris1,
+.gris2,
+.gris3 {
+    background-color: #f5f5f5;
+    height: 80px;
+
+}
+
+.stand {
+    display: flex;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #282240;
+
+}
+
+.ulti {
+    display: flex;
+    justify-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #282240;
+
+}
+
+.precio-card {
+    text-align: center;
+    color: #222;
+    font-family: sans-serif;
+
+}
+
+.precio-card .cantidad {
+    font-size: 40px;
+
+}
+
+.precio-card .detalle {
+    font-size: 16px;
+    color: #666;
+    margin-left: 5px;
+
+}
+
+ul {
+    text-align: justify;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.lista_cuadro1 li,
+.lista_cuadro2 li,
+.lista_cuadro3 li {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #666;
+    margin-bottom: 6px;
+    font-size: 18px;
+
+}
+
+.cuadro1 li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "✔ ";
+    color: #f41486;
+
+}
+
+.cuadro2 li::before,
+.cuadro3 li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "✔ ";
+    color: #1e172f;
+
+}
+
+.lista_cuadro1 li.estrella::before,
+.lista_cuadro2 li.estrella::before,
+.lista_cuadro3 li.estrella::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "★";
+    color: #f41486;
+
+}
+
+.lista_cuadro2 li.estrella2::before,
+.lista_cuadro3 li.estrella2::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "★";
+    color: #1e172f;
+
+}
+
+.lista_cuadro1 li.X::before,
+.lista_cuadro2 li.X::before,
+.lista_cuadro3 li.X::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "✖ ";
+    color: #1e172f;
+
+}
+
+.parrafos_cuadros {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #666;
+}
+
+.boton_cuadro1,
+.boton_cuadro2,
+.boton_cuadro3 {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transform: translateY(10px);
+    height: 50px;
+    width: 170px;
+
+}
+
+.gris_ulti {
+    height: 70px;
+    background-color: #f4f4f4;
+
+}
+
+.boton_cuadro1 {
+    background: linear-gradient(to right, #eb65aa, #f31c8a);
+
+}
+
+.boton_cuadro2,
+.boton_cuadro3 {
+    background-color: #2e2550;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90px;
+    font-size: 20px;
+
+}
+
+span {
+    font-size: 20px;
+    color: #f31c8a;
+
+}
+
+.imagenes_footer img {
+    margin-right: 10px;
+    height: 25px;
+
+}

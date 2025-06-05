@@ -207,6 +207,7 @@ span {
 .cuadros {
     display: flex;
     justify-content: center;
+    margin-left: 100px;
 
 }
 
@@ -241,6 +242,9 @@ span {
 .gris1,
 .gris2,
 .gris3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f5f5f5;
     height: 80px;
 
@@ -280,6 +284,11 @@ span {
     font-size: 16px;
     color: #666;
     margin-left: 5px;
+
+}
+
+.cantidad {
+    color: #222;
 
 }
 
@@ -417,5 +426,248 @@ span {
 .imagenes_footer img {
     margin-right: 10px;
     height: 25px;
+
+}
+
+@media(max-width: 1279px) {
+    h1 {
+        margin: 55px 125px 0px;
+
+    }
+
+    .parrafo_pagina1 {
+        margin: 20px 90px 0px;
+        margin-left: 120px;
+    }
+
+    .botones {
+        margin: 20px 0px 0px 114px;
+
+    }
+
+    .celular_pagina1 {
+        height: 408px;
+        margin-top: -83px;
+        margin-left: 90px;
+
+    }
+
+    .pagina1_izquierda {
+        height: 567px;
+
+    }
+
+    .imagen_pagina2 {
+        height: 234px;
+        margin-left: 100px;
+        margin-right: -150px;
+        margin-top: 75px;
+
+    }
+
+    .textos_pagina2 {
+        margin-right: 20px;
+
+    }
+
+    .cuadros {
+        margin-left: 15px;
+        margin-right: -81px;
+
+    }
+}
+
+@media(max-width: 920px) {
+    h1 {
+        margin: 55px 66px 0px;
+        font-size: 60px;
+
+    }
+
+    .parrafo_pagina1 {
+        margin: 16px 48px -1px;
+        margin-left: 66px;
+
+    }
+
+    .botones {
+        margin: 20px 0px 0px 62px;
+
+    }
+
+    .celular_pagina1 {
+        height: 351px;
+        margin-top: -92px;
+        margin-left: 50px;
+
+    }
+
+    .imagen_pagina2 {
+        margin-left: 8px;
+        margin-right: -207px;
+
+    }
+
+    .subtitulo_pagina2 {
+        font-size: 38px;
+
+    }
+
+    .parrafo_pagina2 {
+        font-size: 17px;
+
+    }
+
+    .lista_pagina2 {
+        font-size: 17px;
+
+    }
+
+    .titulo_pagina2 {
+        font-size: 58px;
+
+    }
+
+    .pagina2 {
+        height: 555px;
+
+    }
+
+    .titulo_pagina3 {
+        font-size: 45px;
+
+    }
+
+    .parrafo_pagina3 {
+        font-size: 13px;
+
+    }
+
+    .cuadros {
+        margin-left: 4px;
+        margin-right: 3px;
+
+    }
+
+    .cuadro1,
+    .cuadro2,
+    .cuadro3 {
+        margin-right: 11px;
+
+    }
+
+    .lista_cuadro1 li,
+    .lista_cuadro2 li,
+    .lista_cuadro3 li {
+        font-size: 15px;
+
+    }
+
+    .parrafos_cuadros {
+        font-size: 15px;
+
+    }
+
+    .boton_cuadro1,
+    .boton_cuadro2,
+    .boton_cuadro3 {
+        font-size: 14px;
+
+    }
+
+    .precio-card .cantidad {
+        font-size: 33px;
+
+    }
+
+    .imagenes_footer img {
+        margin-right: 10px;
+        height: 22px;
+
+    }
+
+    footer {
+        font-size: 17px;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+    body {
+        width: 440px;
+
+    }
+
+    nav a {
+        padding: 5px;
+        font-size: 16px;
+
+    }
+
+    .boton_header {
+        height: 31px;
+        width: 92px;
+        font-size: 13px;
+
+    }
+
+    .pagina1_izquierda {
+        background-color: #2e2550;
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .pagina1_derecha {
+        width: 0%;
+
+    }
+
+    .imagen_pagina2 {
+        height: 0px;
+
+    }
+
+    .textos_pagina2 {
+        margin-right: 15px;
+        margin-top: -40px;
+
+    }
+
+    .pagina2 {
+        height: 500px;
+
+    }
+
+    .titulo_pagina3 {
+        font-size: 40px;
+
+    }
+
+    .parrafo_pagina3 {
+        font-size: 12px;
+
+    }
+
+    .pagina3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 2300px;
+
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+
+    }
+
+    footer {
+        font-size: 14px;
+
+    }
 
 }

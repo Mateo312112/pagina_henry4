@@ -80,7 +80,7 @@ h1 {
 
 .pagina1_derecha {
     display: flex;
-    flex-grow: 1;
+    width: 50%;
     background-image: linear-gradient(rgba(26, 34, 44, 0.5)),
         url(../assets/hojasFondo.jpg);
     background-position: center;
@@ -471,13 +471,17 @@ span {
     }
 
     .cuadros {
-        margin-left: 15px;
-        margin-right: -81px;
+        display: flex;
+
+    }
+
+    .pagina3 {
+        height: 1000px;
 
     }
 }
 
-@media(max-width: 920px) {
+@media(max-width: 921px) {
     h1 {
         margin: 55px 66px 0px;
         font-size: 60px;
@@ -594,11 +598,6 @@ span {
 }
 
 @media(max-width: 768px) {
-    body {
-        width: 440px;
-
-    }
-
     nav a {
         padding: 5px;
         font-size: 16px;
@@ -613,7 +612,6 @@ span {
     }
 
     .pagina1_izquierda {
-        background-color: #2e2550;
         width: 100%;
         height: 450px;
 
